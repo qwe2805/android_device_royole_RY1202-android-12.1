@@ -21,11 +21,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     bootctrl.sm8250
 
-PRODUCT_STATIC_BOOT_CONTROL_HAL := \
-    bootctrl.sm8250 \
-    libcutils \
-    libgptutils \
-    libz
 
 PRODUCT_PACKAGES += \
     otapreopt_script \
