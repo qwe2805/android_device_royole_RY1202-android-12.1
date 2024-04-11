@@ -22,10 +22,10 @@ PRODUCT_PACKAGES += \
     bootctrl.kona
 
 PRODUCT_STATIC_BOOT_CONTROL_HAL := \
-    bootctrl.kona \
+    bootctrl.sm8250 \
+    libcutils \
     libgptutils \
-    libz \
-    libcutils
+    libz
 
 PRODUCT_PACKAGES += \
     otapreopt_script \
